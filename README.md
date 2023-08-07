@@ -86,7 +86,7 @@ By adding some XSS payload into the request
 
 ## MISC
 Some random match and replace rules
-* Finding [CVE-2021-44221](https://github.com/advisories/GHSA-2q3f-cqqf-9p6p)
+* Finding [CVE-2021-44228](https://github.com/advisories/GHSA-jfh8-c2jp-5v3q)
 
 <img src="https://user-images.githubusercontent.com/36522826/166748175-6782ce51-b10f-4b1d-b8a3-610ef142d567.png" width="400" />
 
